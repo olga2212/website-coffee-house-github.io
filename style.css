@@ -1,0 +1,182 @@
+body {
+    background: url(https://cdn.glitch.com/1bf924cb-0cf4-42f3-bb9c-257bb7bde8cb%2Fnature.jpg?v=1631547021169)
+    no-repeat center center fixed;
+    background-size: cover;
+    
+}
+.heading {
+    display: flex;
+    justify-content: center;
+ 
+}
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    color: #f2dbb2;
+}
+.one {
+    background-image: url(https://cdn.glitch.com/1bf924cb-0cf4-42f3-bb9c-257bb7bde8cb%2Fphoto1.jpg?v=1631546399062);
+   
+}
+.two {
+    background-image: url(https://cdn.glitch.com/1bf924cb-0cf4-42f3-bb9c-257bb7bde8cb%2Fphoto2.jpg?v=1631546409704);
+}
+.three {
+    background-image: url(https://cdn.glitch.com/1bf924cb-0cf4-42f3-bb9c-257bb7bde8cb%2Fphoto3.jpg?v=1631546420952);
+}
+.four {
+    background-image: url(https://cdn.glitch.com/1bf924cb-0cf4-42f3-bb9c-257bb7bde8cb%2Fphoto4.jpg?v=1631546429785);
+}
+.five {
+    background-image: url(https://cdn.glitch.com/1bf924cb-0cf4-42f3-bb9c-257bb7bde8cb%2Fphoto5.jpg?v=1631546437783);
+}
+.six {
+    background-image: url(https://cdn.glitch.com/1bf924cb-0cf4-42f3-bb9c-257bb7bde8cb%2Fphoto6.jpg?v=1631546857833);
+}
+.item {
+  height: 90vh;
+  width: 100vh;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Dancing Script', cursive;
+    flex: 1;
+    margin: 5px;
+    position: relative;
+}
+.container {
+    display: flex;
+}
+h4 {
+    position: absolute;
+    top: 15px;
+    left: 40px;
+    color: black;
+    background-color: #C3BA85;
+    opacity: 0;
+}
+.selected {
+    flex: 4;
+}
+.selected h4 {
+    font-size: 40px;
+    transition: all 1s ease;
+    opacity: 1;
+}
+
+#containerone {
+    display: flex;
+    justify-content: center;
+}
+#pictures {
+    width: 500px;
+}
+.btn {
+    
+    border: none;
+    font-family: 'Dancing Script', cursive;
+    color: #C3BA85;
+    font-size: 25px;
+}
+.main {
+    display: flex;
+}
+.header {
+    flex: 1;
+    margin-left: 50px;
+}
+h3 {
+    font-family: 'Dancing Script', cursive;  
+    color: black;
+    background-color: #C3BA85;
+    background-size: auto;
+    text-align: center;
+}
+.text {
+  color: #C3BA85;
+    font-size: 15px; 
+    text-align: center;
+}
+.send {
+    display: flex;
+    justify-content: center;
+    margin-left: 800px;
+    clear: both;
+    text-align: right;
+    float: left;
+    line-height: 25px;
+}
+label {
+    font-size: 20px;
+    color: #C3BA85;
+    float: left;
+    padding-right: 10px;
+    
+    
+}
+.text-input {
+    border: none;
+    padding: 12px 20px;
+}
+.btnone {
+    font-family: 'Dancing Script', cursive;  
+    font-size: 20px;
+    background-color: yellowgreen;
+    flex: 1; 
+    margin-left: 0px;
+    background-size: cover;
+} 
+
+.Anastaisha{
+            text-align: center;
+            font-size: 12px;
+             text-decoration: none;
+            color: #070707;
+          }
+
+.Anas{display:flex; 
+justify-content: center;}
+
+
+@media all and (max-width:500px) {
+    img#pictures {
+        width: 200px;
+        margin-left: 50px;
+    }
+    .item {
+        height: 60vh;
+        width: 70vh;
+    }
+    h1 {
+        font-size: 20px;
+    }
+    div.main {
+        display: flex;
+        flex-direction: column;
+    }
+    h4 {
+        font-size: 20px;
+    }
+}
+    @media all and (max-width:800px) {
+        img#pictures {
+            width: 300px;
+          height: 300px;
+            margin-left: 50px;
+        }
+        div.main {
+            display: flex;
+            flex-direction: column;
+        }
+        .item {
+            height: 60vh;
+            width: 70vh;
+    }
+    .send {
+      
+        margin-left: 70px;
+    }
+    h4 {
+        font-size: 20px;
+        left: 5px;
+    }
+}
